@@ -1,12 +1,10 @@
 fastapi==0.104.1
-uvicorn==0.24.0
-numpy==1.24.3
-tensorflow==2.13.0
-opencv-python==4.8.1.78
-Pillow==10.0.1
-motor==3.3.2
-pymongo==4.5.0
+uvicorn[standard]==0.24.0
 python-multipart==0.0.6
+numpy==1.24.3
+opencv-python-headless==4.8.1.78
+tensorflow==2.14.0
+Pillow==10.1.0
 python-dotenv==1.0.0
-setuptools>=58.0.0
-# باقي الحزم الأخرى
+setuptools>=68.0.0
+wheel>=0.41.0
